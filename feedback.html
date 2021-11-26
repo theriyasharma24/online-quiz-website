@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="shortcut icon" href="img/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">  <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700%7CRoboto+Slab:400,100' rel='stylesheet' type='text/css' />
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body style="background-color:antiquewhite;height:100px;" >
+    
+    
+    <nav>
+        <a id="logo">Quiz<span style="color: #184f61;">zers</span></a>  
+        <a class="nav-item" id="quiz-nav-item" href="index.html">Home</a>
+        <a class="nav-item" id="quiz-nav-item" onclick="quiz();">Quiz</a>
+        <a class="nav-item" id="quiz-nav-item" href="about.html">About</a>
+        <a class="nav-item" id="quiz-nav-item" onclick="contact();">Contact</a>
+        <a class="nav-item" id="quiz-nav-item" href="feedback.html">Feedback</a>
+        <a class="nav-item" id="donation-nav" href="donate.html">Donate</a><span class="vl"></span>
+        <a class="nav-item" id="nav-item-login" href="login.html">Log In</a>
+        <button class="nav-item" id="nav-quiz-button" onclick="location.href='quiz.html'">Take the Quiz</button>
+    </nav>
+
+    
+
+    <img style="background-color: #684b75;height:600px;opacity:0.6;margin-left:-0.6vw;" src="https://images.pexels.com/photos/9821386/pexels-photo-9821386.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+    <div class="feedback-header-background"></div>
+    <h1 class="home-heading1" id="feedback-heading1">“We all need people who will give us feedback. That’s how we improve.”</h1>
+    <p class="home-heading2" id="feedback-heading2">Because every feedback matters.</p>
+    <button class="home-button-quiz" id="feedback-header-button" onclick="window.scrollTo(0,550);">Give Feedback</button>
+    
+    <div class="feedback-mid-portion" style="background-image: url('https://images.unsplash.com/photo-1490367605959-06955305859b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80');">
+        
+        <h1 class="feedback-mid-heading">We value your feedback:))</h1>
+        <form class=feedback-form onsubmit="return validate(); " method="GET" name="form2" action="#">
+            Full Name &emsp;&ensp;&ensp;&ensp; : <input class="feedback-input" name="name"><br>
+            <span id="fb1" class="feedback-error"> Full Name cannot be blank.</span><br>
+            Email Id&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; : <input class="feedback-input" name="email" ><br>
+            <span id="fb2" class="feedback-error"> Email Id invalid.</span><br>
+            Phone Number &ensp; : <input name="phonenumber" class="feedback-input"><br>
+            <span id="fb3" class="feedback-error"> Phone Number cannot be blank.</span><br>
+            Did you attempted any of our quiz? <input class="feedback-input" id="checkbox1" type="checkbox" name="attempt1" value="yes" >Yes
+            <input class="feedback-input" id="checkbox2" type="checkbox" name="attempt1" value="no" >No<br>
+            <span id="fb4" name="attempt1" style="position:relative; left:130px; bottom:15px;"class="feedback-error">Fill this field.</span><br>
+            If yes, how many stars will you give us? <select name="attempt2" class="feedback-input" id="feedback-select-input" >
+                <option></option>
+                <option name="attempt2" value="n/a">N/A</option>
+                <option name="attempt2" value="1">1</option>
+                <option name="attempt2" value="2">2</option>
+                <option name="attempt2" value="3">3</option>
+                <option name="attempt2" value="4">4</option>
+                <option name="attempt2" value="5">5</option>
+            </select><br><br>
+            <span id="fb5" style="position:relative; left:550px; bottom:35px;" class="feedback-error"> Fill this field.</span><br>
+            <div class="feedback-row"><span style="position:relative;bottom:120px;">Feedback :</span> <textarea class="feedback-input" name="feedback" id="feedback-feedback-input"></textarea></div>
+            <span id="fb6"style="position:relative; left:280px; bottom:40px;" class="feedback-error"> Feedback cannot be blank.</span> 
+            <input  id="feedback-submit-btn" type="submit" name="submit" value="Submit" ></button>
+        </form>
+    </div>
+    
+    
+
+</body>
+<footer class="feedback-footer">
+        
+    <p class="footer-updates">Get quiz updates just on a click! </p>
+    <form name="form1" action="#">
+        <input class="footer-updates-input" name="email" placeholder="Your Email Address">
+        <button class="footer-updates-button" onclick="ValidateEmail(document.form1.email);">Subscribe</button>
+    </form>
+    <div class="footer-social-media">
+        <p id="footer-social-media-heading">Stay Connected With Us</p>
+        <a href="https://www.instagram.com/accounts/login/" target="_blank"><img class="footer-icons" id="quiz-footer-icons" src="https://img.icons8.com/fluency/2x/instagram-new.png"></a>
+        <a href="https://www.facebook.com/" target="_blank"><img class="footer-icons" id="quiz-footer-icons"src="https://img.icons8.com/fluency/2x/facebook.png"></a>
+        <a href="https://twitter.com/?lang=en-in" target="_blank"><img class="footer-icons" id="quiz-footer-icons" src="https://img.icons8.com/fluency/452/twitter.png"></a>
+        <a href="https://in.linkedin.com/" target="_blank"><img class="footer-icons" id="quiz-footer-icons"src="https://img.icons8.com/color/2x/linkedin.png"></a>
+    </div>
+    <div class="footer-links-line">
+        <a class="footer-links" href="index.html">Home</a>
+        <a class="footer-links" href="quiz.html">Quiz</a>
+        <a class="footer-links" >Contact</a>
+        <a class="footer-links" href="donate.html">Donate</a>
+        <a class="footer-links" href="about.html">About</a>            
+        <a class="footer-links" href="feedback.html">Feedback</a>
+        <a class="footer-links" href="login.html">Log In</a>
+        <a class="footer-links">Privacy Policy</a>
+        
+    </div>
+    
+    
+    <p class="footer-last-line">© All Rights Reserved Quizzers Ltd. 2021-2022</p>
+    
+</footer>
+<script>
+    
+    function validate() {
+        var valid = true;
+        if (namee() == false) {
+        document.getElementById("fb1").style.display = "initial";
+        valid = false;
+        }
+        if (email() == false) {
+        document.getElementById("fb2").style.display = "initial";
+        valid = false;
+        }
+        if (phonenumber() == false) {
+        document.getElementById("fb3").style.display = "initial";
+        valid = false;
+        }
+        if (attempt1() == false) {
+        document.getElementById("fb4").style.display = "initial";
+        valid = false;
+        }
+        if (attempt2() == false) {
+        document.getElementById("fb5").style.display = "initial";
+        valid = false;
+        }
+        if (feedback() == false) {
+        document.getElementById("fb6").style.display = "initial";
+        valid = false;
+        }
+        if (valid==true)
+        {
+            alert("Thank You For Your Valuable Feedback:))");
+        }
+        
+        return valid;
+        
+    }
+    function hideAllErrors() {
+   
+        var allfbs = document.getElementsByClassName("feedback-error");
+        for (var i = 0; i < allfbs.length; i++)
+        allfbs[i].style.display = "none";
+    }
+    function namee() {
+        if (document.form2.name.value.length == 0)
+        return false;
+        else
+        return true;
+    }
+    function email() {
+        var Email = document.form2.email.value;
+        if (!Email.includes('@'))
+        return false;
+        //abc@gmail
+        if (!(Email.endsWith('.in') || Email.endsWith(".com") || 
+        Email.endsWith(".org")))
+        return false;
+        return true;
+    }
+    function phonenumber() {
+        if (document.form2.phonenumber.value.length == 0)
+        return false;
+        else
+        return true;
+    }
+    function attempt1() {
+        var value1=document.getElementById("checkbox1");
+        var value2=document.getElementById("checkbox2");
+        if (value1.checked==false && value2.checked==false)
+        return false;
+        else
+        return true;
+    }
+    function attempt2() {
+        if (document.form2.attempt2.value.length==0)
+        return false;
+        else
+        return true;
+    }
+    function feedback() {
+        if (document.form2.feedback.value.length == 0)
+        return false;
+        else
+        return true;
+    }
+    
+    function ValidateEmail(inputText)
+        {
+            var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+            if(inputText.value.match(mailformat))
+            {
+            alert("A verification link has been sent to your given email address : "+ inputText.value);
+            document.form1.email.focus();
+            return true;
+            }
+            else
+            {
+            alert("You have entered an invalid email address. Please enter a valid email address.");
+            document.form1.email.focus();
+            return false;
+            }
+            
+        }  
+        function contact() {
+        window.scrollTo(0,2800);
+    }
+    
+</script>
+</html>

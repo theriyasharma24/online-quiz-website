@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate</title>
+    <link rel="shortcut icon" href="img/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">  <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700%7CRoboto+Slab:400,100' rel='stylesheet' type='text/css' />
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body style=" background-color: bisque;">
+    
+    
+    <nav>
+        <a id="logo" href="index.html">Quiz<span style="color: #184f61;">zers</span></a>  
+        <a class="nav-item" id="donation-nav" href="index.html">Home</a>
+        <a class="nav-item" id="donation-nav" href="quiz.html">Quiz</a>
+        <a class="nav-item"  id="donation-nav" href="about.html">About</a>
+        <a class="nav-item" id="donation-nav" onclick="contact();">Contact</a>
+        <a class="nav-item" id="donation-nav" href="feedback.html">Feedback</a>
+        <a class="nav-item" id="donation-nav" onclick="window.scrollTo(0,0);">Donate</a><span class="vl"></span>
+        <a class="nav-item" id="nav-item-login" href="login.html">Log In</a>
+        <button class="nav-item" id="nav-quiz-button" onclick="location.href='quiz.html'">Take the Quiz</button>
+    </nav>
+    <img class="donate-image" src="https://i1.wp.com/rsvpify.com/wp-content/uploads/2019/04/non-profit-event-planning-tips.png?fit=1024%2C745&ssl=1">
+    <header align="center" class="donate-header">
+        <br><br>
+        <h1 style="font-size:60px;">“Donate and change a life.”</h1>
+        <p style="font-size:30px;">Every penny you donate can change a person's life for better.</p>
+        <br><button class="donate-button"onclick="window.scrollTo(0,600);">Why To Donate?</button>
+        <button class="donate-button" onclick="window.scrollTo(0,1250);">Donate Now</button>
+    </header>
+    <div style="height:700px;">
+        <div style="height:500px;position:relative;bottom:540px;">
+
+                <h1 style="text-align:center;position:relative;font-size:50px;top:150px;color:#3c2944;">Why To Donate?</h1>
+                <p style="margin-left:150px; margin-right:150px;text-align:center;position:relative;font-size:20px;top:130px;color:#3c2944;">The Quizzers Donation Campaign is an initiative to help the underpreviliged children 
+                    get the basic amenities of life, education, and a bright future.</p>
+                
+                <div class="donation-container">
+                    <img class="donation-donate-pic" src="https://th.bing.com/th/id/OIP.JfGlG7QCHf3TGfvmhs8SXgHaFy?pid=ImgDet&w=612&h=478&rs=1">
+                    <p class="donation-donate-h1">Donating Clothes</p>
+                    <p class="donation-donate-h2">The money we recieve from the generous donations you give, is used to provide new clothes to the ones who need them.</p>
+                </div>
+                <div class="donation-container" id="container2">
+                    <img class="donation-donate-pic" src="https://th.bing.com/th/id/OIP.baxx0MYgfsthUHmKFHdwlgAAAA?pid=ImgDet&w=264&h=280&rs=1">
+                    <p class="donation-donate-h1">Donating Books</p>
+                    <p class="donation-donate-h2">The money we recieve from the generous donations you give, is used to provide new books to the ones who need them.</p>
+                </div>
+
+                <div class="donation-container" id="container3">
+                    <img class="donation-donate-pic" src="https://thumbs.dreamstime.com/b/volunteers-donating-food-to-homeless-poor-people-flat-vector-illustration-aid-volunteering-charity-foods-drive-care-213638630.jpg">
+                    <p class="donation-donate-h1">Donating Food</p>
+                    <p class="donation-donate-h2">The money we recieve from the generous donations you give, is used to provide fresh food to the ones who need them.</p>
+                </div>
+                
+        </div>
+
+        <div style="height:500px;background-color:white; position:relative;bottom:300px;">
+            <img style="height:500px;margin-left:-1vw; width:800px;"src="https://genhq.com/wp-content/uploads/2018/02/CharitibleGiving.gif">
+            <div class="donation-pay">
+                <p style="font-size:30px;font-weight:bold;">Donate Now</p>
+                <p style="font-size:25px;font-style: italic;">“Every single penny counts”</p>
+                <p style="font-size:20px;font-style: italic;">Not everyone gets the chance to change a life. Donate now and make a difference for good.
+                Your one small decision can change someone's life. Donate and help Quizzers to spread a positive message in the society.
+            </p>
+        
+                <a href="#!" class="btn">
+                    <form>
+                        <script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_HhpAyWxDTZgsNy" async> </script> 
+                    </form>
+                </a>
+            </div>
+        
+        </div>
+    </div>
+
+    <div onclick="topp();" class="quiz-arrow-full" id="donation-arrow-full">
+        <img class="topics-arrow-up" id="quiz-topics-arrow-up" src="https://img.icons8.com/ios/2x/send-letter.png">
+        <p style="position:relative;bottom:170px;left:1125px;font-family:cursive;">Back To Top</p>
+    </div>
+    
+
+    
+</body>
+<footer class="home-footer" id="donation-footer">
+        
+    <p class="footer-updates">Get quiz updates just on a click! </p>
+    <form name="form1" action="#">
+        <input class="footer-updates-input" name="email" placeholder="Your Email Address">
+        <button class="footer-updates-button" onclick="ValidateEmail(document.form1.email);">Subscribe</button>
+    </form>
+    
+    <div class="footer-social-media">
+        <p id="footer-social-media-heading">Stay Connected With Us</p>
+        <a href="https://www.instagram.com/accounts/login/" target="_blank"><img class="footer-icons" id="donation-footer-icons" src="https://img.icons8.com/fluency/2x/instagram-new.png"></a>
+        <a href="https://www.facebook.com/" target="_blank"><img class="footer-icons" id="donation-footer-icons"src="https://img.icons8.com/fluency/2x/facebook.png"></a>
+        <a href="https://twitter.com/?lang=en-in" target="_blank"><img class="footer-icons" id="donation-footer-icons"src="https://img.icons8.com/fluency/452/twitter.png"></a>
+        <a href="https://in.linkedin.com/" target="_blank"><img class="footer-icons" id="donation-footer-icons"src="https://img.icons8.com/color/2x/linkedin.png"></a>
+    </div>
+    <div class="footer-links-line">
+        <a class="footer-links" href="index.html">Home</a>
+        <a class="footer-links" href="quiz.html">Quiz</a>
+        <a class="footer-links" >Contact</a>
+        <a class="footer-links" href="donate.html">Donate</a>
+        <a class="footer-links" href="about.html">About</a>            
+        <a class="footer-links" href="feedback.html">Feedback</a>
+        <a class="footer-links" href="login.html">Log In</a>
+        <a class="footer-links">Privacy Policy</a>
+        
+    </div>
+    
+    
+    <p class="footer-last-line">© All Rights Reserved Quizzers Ltd. 2021-2022</p>
+    
+</footer>
+
+<script>
+    function topp()
+    {
+        window.scrollTo(0,0);
+    }
+    function contact() {
+        window.scrollTo(0,2800);
+    }
+    function ValidateEmail(inputText)
+    {
+        var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+        if(inputText.value.match(mailformat))
+        {
+        alert("A verification link has been sent to your given email address : "+ inputText.value);
+        document.form1.email.focus();
+        return true;
+        }
+        else
+        {
+        alert("You have entered an invalid email address. Please enter a valid email address.");
+        document.form1.email.focus();
+        return false;
+        }
+        
+    }
+</script>
+</html>

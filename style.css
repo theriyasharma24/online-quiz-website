@@ -1,0 +1,1239 @@
+body{
+    background-color: #184f61;
+    width:100%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+
+    
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+  /* Nav Bar*/
+
+nav{
+    height:100px;
+    background-color:white;
+    position:fixed;
+    width:1500px;
+    z-index:1;
+    top:-1vw;
+    margin:-1vw;
+    padding:0;
+}
+#logo{
+    position:relative;
+    top:2.5vw;
+    left:2vw;
+    font-weight:800;
+    font-family:cursive;
+    font-size:35px;
+    color: #88619a;  
+    text-decoration: none;
+    
+}
+.nav-item{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position:relative;
+    left:200px;
+    top:29px;
+    font-size:22px;
+    font-weight:500;
+    color:rgb(80, 78, 78);
+    margin:16px;
+    margin-top:13px;
+    padding-bottom:16px;     
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+    margin-left:10px;
+    cursor:pointer;
+    
+}
+.nav-item:hover{
+    border-bottom:8px solid #184f61;   
+}
+#nav-quiz-button{
+    text-align: center;
+    padding-top:10px;
+    background-color:#88619a;  
+    color:white;
+    outline:none;
+    border:transparent;
+    width:180px;
+    height:45px;
+    font-size:20px;
+    border-radius:20px;
+    
+    
+
+}
+#nav-quiz-button:hover{
+    background-color: #684b75;
+}
+#nav-item-login
+{
+  background-color: transparent;
+  outline:none;
+  border-color: none;
+  border:transparent;
+}
+#nav-item-login:hover{
+    text-decoration: underline;
+    border-bottom:transparent;
+}
+.vl{
+    position:relative;
+    top:13px;
+    left:100px;
+    height:900px;
+    border-left: 3px solid rgb(194, 187, 187);
+    
+  }
+
+  /* Home Page*/
+
+.home-heading1{
+    position:relative;
+    top:80px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:50px;
+    text-align: center;
+    color: beige;
+
+}
+.home-heading2{
+    position:relative;
+    top:80px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:1.6em;
+    font-style:italic;
+    text-align: center;
+    color: beige;
+    margin:150px;
+    line-height: 40px;
+    margin-top:20px;
+
+}
+.home-button-quiz{
+    position:relative;
+    left:460px;
+    bottom:30px;
+    height:80px;
+    width:280px;
+    padding:10px;
+    background-color:#88619a;  
+    color:white;
+    outline:none;
+    border:transparent;
+    font-size:24px;
+    border-radius:50px;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+}
+.home-button-quiz:hover{
+    background-color: #684b75;
+}
+.home-button-bottom-text{
+    position:relative;
+    right:20px;
+    text-align: center;
+    bottom:35px;
+    font-style: italic;
+    color:white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+    font-weight: 400;  
+    font-size:20px;
+}
+img{
+    width:100%;
+    background-color:white;
+    margin-right:-12vw;
+    
+}
+.home-mid-portion{
+    text-align: center;
+    background-color:rgb(245, 241, 241);
+    height:1900px;
+    width:1260px;
+    margin-bottom:-3vw;
+    margin-left:-2vw;
+    position:relative;
+    top:60px;
+    font-size:20px;
+    color:#184f61;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+#home-typing{
+    position:relative;
+    top:50px;   
+}
+
+.home-mid-number
+{
+    text-align: center;
+}
+#home-mid-third-line{
+    position:relative;
+    top:40px;
+    color:#51596a;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#home-mid-take-the-quiz{
+    color:#184f61;
+}
+#home-mid-take-the-quiz:hover{
+    text-decoration: underline;
+    cursor:pointer;
+}
+.vl2{
+    position:relative;
+    top:40px;
+    left:0px;
+    border-right: 5px dotted rgb(194, 187, 187);
+}
+.vl3{
+    position:relative;
+    top:70px;
+    right:5px;
+    border-right: 5px dotted rgb(194, 187, 187);
+}
+.vl4{
+    position:relative;
+    top:100px;
+    right:10px;
+    border-right: 5px dotted rgb(194, 187, 187);
+}
+.home-mid-line{
+    position: relative;
+    top:40px;
+}
+.home-mid-pic1{
+    height:300px;
+    width:300px;
+    background-color:rgb(245, 241, 241);
+    position:relative;
+    top:160px;
+    left:270px;
+}
+.home-mid-pic2{
+    height:250px;
+    width:300px;
+    background-color:rgb(245, 241, 241);
+    position:relative;
+    top:160px;
+    right:430px;
+}
+.home-mid-part2{
+    position:relative;
+    bottom:150px;
+}
+.home-mid-pic3{
+    height:400px;
+    width:350px;
+    background-color:rgb(245, 241, 241);
+    position:relative;
+    top:220px;
+    left:270px;
+}
+.home-mid-part3{
+    position:relative;
+    bottom:430px;
+}
+.home-mid-pic4{
+    height:250px;
+    width:300px;
+    background-color:rgb(245, 241, 241);
+    position:relative;
+    bottom:270px;
+    right: 470px;
+}
+.home-mid-part4{
+    position:relative;
+    bottom:120px;
+}
+.home-mid-pic5{
+    height:250px;
+    width:300px;
+    background-color:rgb(245, 241, 241);
+    position:relative;
+    bottom:270px;
+    right: 430px;
+}
+
+
+  /* Footer*/
+
+.footer-updates{
+    position: relative;
+    top:20px;
+    left:20px;
+    font-size:23px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+}
+.footer-last-line{
+    position: relative;
+    text-align: center;
+    bottom:10px;
+}
+.footer-updates-input{
+    position: relative;
+    top:20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+    left:20px;
+    font-size:20px;
+    border-radius:2px;
+    outline: none;
+    border-color: transparent;
+    width:200px;
+}
+.footer-updates-button{
+    position: relative;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+    background-color: #cc80ec;
+    color:black;
+    top:20px;
+    left:20px;
+    height:29px;
+    border-radius:2px;
+    outline: none;
+    border-color: transparent;
+    font-size:19px;
+}
+.footer-updates-button:hover{
+    background-color: #684b75;
+}
+.footer-icons{
+    position:relative;
+    height:30px;
+    width:30px;
+    margin:10px;
+    background-color:#184f61;
+    bottom:10px;
+    border-radius: 10px;
+}
+.footer-icons:hover{
+    opacity:0.4;
+}
+.footer-social-media{
+    position:relative;
+    margin-left:930px;
+    bottom:80px;
+    font-size:23px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+
+}
+.footer-links-line
+{
+    text-align:center;
+}
+.footer-links{
+    position:relative;
+    margin-right:30px;
+    bottom:30px;
+    font-size:23px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+    color:white;
+    text-decoration: none;
+}
+.footer-links:hover{
+    text-decoration: underline;
+    cursor:pointer;
+}
+.home-footer{
+    height:200px;
+    position:relative;
+    top:80px;
+    background-color:#184f61;
+    width:1239px;
+   color:white;
+}
+
+  /* Quiz Page*/
+
+.quiz-body{
+    background-color:#684b75;
+
+}
+.quiz-header{
+    position:relative;
+    top:10px;
+    height:380px;
+    
+}
+.quiz-heading1{
+    color:aliceblue;
+    font-size:48px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin-left:190px;
+    margin-right:190px;
+    position:relative;
+    top:70px;
+}
+
+#quiz-nav-item:hover{
+    border-bottom:8px solid #684b75;   
+}
+#quiz-button-quiz
+{
+    position:relative;
+    bottom:4px;
+    background-color:#184f61;
+}
+#quiz-button-quiz:hover
+{
+    background-color:#113b49;
+    
+}
+.quiz-mid-portion{
+    background-color:rgb(245, 241, 241);
+    height:1350px;
+    margin-left:-2vw;
+}
+.quiz-mid-heading1{
+    position:relative;
+    text-align: center;
+    color:#684b75;
+    font-size:40px;
+    top:20px;
+}
+.quiz-mid-topic-box1{
+    height:400px;
+    width:450px;
+    background-color:#684b75;
+    position:relative;
+    left:140px;
+    top:40px;
+    border-radius:50px;
+    cursor: pointer;
+}
+.quiz-mid-topic-box1:hover{
+    transform:translateY(-10px);
+}
+.quiz-mid-topic-pic{
+    margin-top:20px;
+    height: 200px;
+    width:300px;
+    background-color:transparent;
+    position:relative;
+    left:70px;
+    border-radius:200px;
+}
+
+.quiz-mid-topic-heading1{
+    position:relative;
+    text-align:center;
+    font-size:40px;
+    font-family:cursive;
+    bottom:45px;
+    color:rgb(200, 204, 207);
+}
+.quiz-mid-topic-heading2{
+    position:relative;
+    text-align:center;
+    font-size:20px;
+    font-family:cursive;
+    bottom:80px;
+    margin:40px;
+    margin-top:50px;
+    color:rgb(200, 204, 207);
+}
+.quiz-mid-topic-box2{
+    height:400px;
+    width:450px;
+    background-color:#684b75;
+    position:relative;
+    bottom:360px;
+    left:700px;
+    border-radius:50px;
+    cursor: pointer;
+}
+.quiz-mid-topic-box2:hover{
+    transform:translateY(-10px);
+}
+.quiz-mid-topic-box3{
+    height:400px;
+    width:450px;
+    background-color:#684b75;
+    position:relative;
+    left:140px;
+    bottom:280px;
+    border-radius:50px;
+    cursor: pointer;
+}
+.quiz-mid-topic-box3:hover{
+    transform:translateY(-10px);
+}
+.quiz-mid-topic-box4{
+    height:400px;
+    width:450px;
+    background-color:#684b75;
+    position:relative;
+    bottom:680px;
+    left:700px;
+    border-radius:50px;
+    cursor: pointer;
+}
+.quiz-mid-topic-box4:hover{
+    transform:translateY(-10px);
+}
+.quiz-mid-last-line{
+    position:relative;
+    text-align:center;
+    font-size:30px;
+    font-family:cursive;
+    bottom:630px;
+    margin-left:250px;
+    margin-right:250px;
+    color:#684b75;
+}
+#quiz-topics-arrow-up{
+    position:relative;
+    bottom:140px;
+}
+.quiz-arrow-full
+{
+    animation:updown 2s ease infinite;
+    position:relative;
+    top:70px;
+    right:550px;
+}
+.quiz-footer{
+    height:200px;
+    position:relative;
+    bottom:60px;
+    background-color:#684b75;
+    width:1239px;
+   margin-left:-0.7vw;
+   color:white;
+}
+#footer-icons{
+    background-color: #684b75;
+}
+.footer-updates-button{
+    background-color:rgb(81, 190, 190);
+}
+.footer-updates-button:hover{
+    background-color:rgb(194, 238, 238);
+}
+#quiz-footer-icons{
+    background-color: #684b75;
+}
+
+  /*Quiz Topics Page*/
+
+.topics-body{
+    background-color:antiquewhite;
+}
+.topics-header{
+    height:500px;
+    margin-left:-0.9vw;
+
+    
+}
+.topics-heading1{
+    color:aliceblue;
+    font-size:65px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin-left:190px;
+    margin-right:190px;
+    position:relative;
+    top:70px;
+}
+.topics-heading2{
+    position:relative;
+    top:40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:1.8em;
+    font-style:italic;
+    text-align: center;
+    color: beige;
+    margin:150px;
+    line-height: 40px;
+    margin-top:10px;
+
+}
+.topics-header-quiz-button{
+    position:relative;
+    left:480px;
+    bottom:50px;
+    height:80px;
+    width:280px;
+    padding:10px;
+    background-color:white;
+    color:black;
+    outline:none;
+    border:transparent;
+    font-size:24px;
+    border-radius:50px;
+    text-align: center;
+    font-family:cursive;
+}
+.topics-header-quiz-button:hover{
+    background-color:#88619a;
+    color:white;
+}
+.topics-mid-portion{
+    position:relative;
+    top:30px;
+    
+}
+.topics-mid-image{
+    height:200px;
+    background-color:antiquewhite;
+    position:relative;
+    right:400px;
+    animation:leftright 2s ease infinite;
+    
+}
+@keyframes leftright {
+    20% {
+        transform: translateX(-2%);
+      }
+    
+      20% {
+        transform: translateX(10%);
+      }
+    
+      20% {
+        transform: translateX(-4%);
+      }
+  
+    
+  }
+
+.topics-mid-heading{
+    position:relative;
+    font-size:30px;
+    margin-left: 190px;
+    margin-right:460px;
+    left:160px;
+    bottom:200px;
+    color:black;
+}
+#topics-mid-heading-all-the-best{
+    font-size:50px;
+    position: relative;
+    left:150px;
+}
+.topics-box
+{
+    position:relative;
+    bottom:100px;
+    margin-top:-10vw;
+
+}
+
+.topics-image
+{
+    position:relative;
+    top:170px;
+    left:50px;
+    height:200px;
+    width:200px;
+    border-radius:200px;
+    background-color:#684b75;
+    padding:10px;
+    }
+#topics-image-right
+{
+    position:relative;
+    left:950px;
+    height:200px;
+    width:200px;
+    border-radius:200px;
+    background-color:#184f61;
+    padding:10px;
+}
+.topics-question-box{
+    height:200px;
+    position:relative;
+    bottom:80px;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    background-color:#684b75;
+    margin-left:330px;
+    margin-right:80px;
+    border-radius: 90px;
+    font-size:25px;
+    color:antiquewhite;
+}
+#topics-question-box-right
+{
+    background-color:#184f61;
+    margin-right:350px;
+    margin-left:80px;
+}
+.topics-question{
+    margin:40px;
+    margin-bottom:20px;
+}
+.topics-answer-button{
+    position:relative;
+    bottom:20px;
+    height:40px;
+    width:350px;
+    text-align:left;
+    border-radius:20px;
+    outline:none;
+    border-color:transparent;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    font-size:20px;
+    margin:10px;
+}
+.topics-answer-button:hover{
+    background-color:rgb(15, 75, 15);
+    color:antiquewhite;
+}
+#topics-arrow-full
+{
+    position:relative;
+    top:180px;
+    right:570px;
+}
+.topics-footer{
+    position:relative;
+    top:100px;
+    background-color: #184f61;
+    color:aliceblue;
+    margin-left:-1vw;
+    margin-top:-8vw;
+
+}
+.topics-arrow-up{
+    height:50px;
+    width:50px;
+    background-color:burlywood;
+    border-radius: 100px;
+    position:relative;
+    left:1150px;
+    transform:translateY(-10px);
+    
+}
+.topics-arrow-up:hover{
+    background-color:antiquewhite;
+
+}
+
+@keyframes updown {
+    20% {
+      transform: translateY(-100%);
+    }
+  
+    20% {
+      transform: translateY(100%);
+    }
+  
+    20% {
+      transform: translateY(-100%);
+    }
+  }
+  .topics-submit-button{
+      position:relative;
+      bottom:120px;
+      left:500px;
+      height:70px;
+      width:200px;
+      font-size:40px;
+      font-family:cursive;
+      border-radius:20px;
+      border-color:transparent;
+      background-color:rgb(114, 93, 39);
+      color:white;
+  }
+
+  .topics-submit-button:hover{
+    background-color:burlywood;
+    color:rgb(114, 93, 39);
+  }
+
+    /* About Page*/
+
+  .about-header
+  {
+      height:600px;
+     
+     
+  }
+ 
+  
+  @keyframes typing {
+    from {
+        width: 0ch;
+    }
+    to {
+        width: 34.2ch;
+    }
+}
+
+#typing {
+  
+    margin-left:10%;
+    width: 0ch;
+    color:antiquewhite;
+    float: left;
+    font-family: sans-serif;
+    font-weight:bold;
+    font-size: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 5s 1s infinite alternate;
+}
+.about-heading2
+{
+    position:absolute;
+    top:200px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:1.6em;
+    font-style:italic;
+    text-align: center;
+    color:white;
+    margin:150px;
+    line-height: 40px;
+    margin-top:20px;
+    
+    
+}
+.about-team-button
+{
+    position:relative;
+    left:460px;
+    bottom:220px;
+    height:80px;
+    width:280px;
+    padding:10px;
+    background-color:#4b3455;
+    color:antiquewhite;  
+    outline:none;
+    border:transparent;
+    font-size:24px;
+    border-radius:50px;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.about-team-button:hover{
+    background-color:#3c2944;
+}
+#about-team-image
+{
+    position: relative;
+    bottom:900px;
+}
+.about-team-image
+{
+    height:420px;
+    width:450px;
+    border-radius:600px;
+    position:absolute;
+    top:680px;
+    left:370px;
+}
+.about-image-left-text
+{
+    color:white;
+    font-size:170px;
+    font-weight:1000;
+    transform: rotate(270deg);
+    position:relative;
+    bottom:460px;
+    right:500px;
+}
+.about-image-right-text
+{
+    color:white;
+    font-size:170px;
+    font-weight:1000;
+    transform: rotate(90deg);
+    position:relative;
+    top:60px;
+    left:500px;
+}
+
+.about-team-portion
+{
+    margin-left:20px;
+    margin-right:20px;
+    position:relative;
+    bottom:240px;
+    height:350px;
+    right:10px;
+    
+}
+.about-box
+{
+    position:relative;
+    bottom:10px;
+    height:380px;
+    width:370px;
+    background-color:rgb(247, 238, 238);
+    color:black;
+    border-radius:50px;
+    margin-left:15px;
+}
+.about-box-image
+{
+    height:150px;
+    width:150px;
+    border-radius:400px;
+    position:relative;
+    left:107px;
+    margin-top:20px;
+}
+.about-box-name
+{
+    text-align:center;
+    font-weight:800;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+    font-size:20px;
+    position:relative;
+    bottom:17px;
+}
+.about-box-desc
+{
+    position:relative;
+    bottom:17px;
+    padding:30px;
+    padding-top:0px;
+    padding-bottom:0px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+
+    font-size:15px;
+    text-align:justify;
+}
+#about-box2
+{
+    position:relative;
+    bottom:390px;
+    margin-left:410px;
+}
+#about-box3
+{
+    position:relative;
+    bottom:770px;
+    margin-left:810px;
+}
+.about-box-social-media
+{
+    background-color: transparent;
+    height:20px;
+    width:20px;
+    position:relative;
+    left:65px;
+    bottom:10px;
+    
+}
+#about-social2
+
+{
+  position: relative;
+  bottom:25px;
+}
+
+#about-box-instagram
+{
+background-color: transparent;
+position: relative;
+left:50px;
+}
+#about-box-instagram:hover{
+opacity:0.7;
+}
+#about-box-facebook
+{
+    background-color: transparent;
+    position:relative;
+    left:210px;
+}
+#about-box-facebook:hover{
+    opacity:0.7;
+    }
+#about-box-linkedin
+{
+    background-color: transparent;
+    position:relative;
+    left:370px;
+}
+#about-box-linkedin:hover{
+    opacity:0.7;
+    }
+#about-box-twitter
+{
+    background-color: transparent;
+    position:relative;
+    left:530px;
+}
+#about-box-twitter:hover{
+    opacity:0.7;
+    }
+#about-topics-arrow-up
+{
+    background-color: white;
+    position:relative;
+    bottom:170px;
+}
+#about-topics-arrow-up:hover
+{
+    background-color: bisque;
+
+}
+.about-footer
+{
+    background-color:#184f61;
+    margin-left:-0.7vw;
+    margin-bottom:-1.3vw;
+    color:aliceblue;
+}
+
+  /* Feedback Page*/
+
+.feedback-header-background
+{
+    background-color: black;
+    height:400px;
+    opacity:0.5;
+    margin:60px;
+    position:relative;
+    bottom:560px;
+}
+#feedback-heading1
+{
+    position:absolute;
+    padding-left:30px;
+    padding-right:60px;
+}
+#feedback-heading2
+{
+    position:absolute;
+    left:300px;
+    top:250px;
+    font-size:25px;
+    
+}
+#feedback-header-button
+{
+    position:absolute;
+    bottom:120px;
+    background-color:#88619a;
+}
+#feedback-header-button:hover
+{
+    background-color: #422e4b;
+}
+
+.feedback-mid-heading
+{
+    color:#113b49;
+    text-align: center;
+    font-size: 60px;
+    font-family: cursive;
+    position:relative;
+    top:10px;
+}
+.feedback-form
+{
+    color:antiquewhite;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    background:rgba(0,2,3,0.6);
+    padding:50px;
+    font-size:30px;
+    margin-left:200px;
+    margin-right:200px;
+    position:relative;
+    bottom:10px;
+    height:750px;
+}
+.feedback-input{
+    width:370px;
+    height:30px;
+    font-size:25px;
+    font-family: cursive;
+    border-color: none;
+    outline:none;
+    
+}
+#feedback-feedback-input
+{
+    height:150px;
+}
+#feedback-select-input
+{
+    width:70px;
+    height:40px;
+    font-size:20px;
+    
+}
+.feedback-row
+{
+    position:relative;
+    bottom:20px;
+}
+#feedback-submit-btn
+{
+    background-color:#144657;
+    position:sticky;
+    height:50px;
+    width:200px;
+    font-size:25px;
+    color:antiquewhite;
+    border-radius:20px;
+    border-color:transparent;
+    top:779px;
+    left:550px;
+}
+#feedback-submit-btn:hover{
+    background-color: #113b49;
+}
+.feedback-footer
+{
+    background-color:#634770;
+    margin-left: -0.7vw;
+    color:aliceblue;
+    position:relative;
+    top:200px;
+    
+}
+.feedback-mid-portion
+{
+    margin-top:-41.7vw;
+    margin-left:-1vw;
+    margin-bottom:-20vw;
+    height:1010px;
+}
+.feedback-error
+{
+    font-size:20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(241, 165, 165);
+    position:relative;
+    left:330px;
+    bottom:10px;
+    display:none;
+}
+
+.donate-image
+{
+    position:relative;
+    bottom:0px;
+    height:650px;
+    margin-left:-0.6vw;
+}
+.donate-header
+{
+    background-color: rgba(0,2,3,0.7);
+    color:aliceblue;
+    margin-left:50px;
+    margin-right:70px;
+    position: relative;
+    bottom:550px;
+    height:410px;
+}
+.donate-button
+{
+    height:60px;
+    width:200px;
+    margin-right:70px;
+    font-size:20px;
+    border-radius: 10px;
+    font-family:sans-serif;
+    background-color: #371f41;
+
+    outline-color:none;
+    border-color: white;
+    outline:none;
+    color:aliceblue;
+}
+.donate-button:hover
+{
+    background-color:white;
+    color:#3c2944;
+    
+}
+.donation-donate-pic
+{
+    height:200px;
+    width:220px;
+    border-radius:600px;
+    position:relative;
+    top:20px;
+    left:40px;
+}
+.donation-container
+{
+    background-color: #371f41;
+    width:300px;
+    height:360px;
+    position:relative;
+    top:150px;
+    border-radius:30px;
+    left:60px;
+}
+.donation-container:hover{
+    transform:translateY(-15px);
+    transition: all 0.5s ease-out;
+    cursor: pointer;
+}
+#container2
+{
+    position: absolute;
+    left:460px;
+    top:308px;
+}
+#container3
+{
+    position: absolute;
+    left:860px;
+    top:308px;
+}
+.donation-donate-h1
+{
+    text-align:center;
+    color:white;
+    font-size:25px;
+    font-weight: bold;
+}
+.donation-donate-h2
+{
+    text-align:center;
+    color:white;
+    font-size:15px;
+
+}
+.donation-pay
+{
+    margin-left:830px;
+    text-align:center;
+    position:relative;
+    bottom:500px;
+    margin-right:50px;
+}
+.btn
+{
+    position:relative;
+    top:50px;
+}
+#donation-footer
+{
+    background-color:#371f41;
+    margin-left:-1vw;
+    height:265px;
+}
+#donation-footer-icons
+{
+    background-color: #371f41;
+}
+#donation-arrow-full
+{
+    position:relative;
+    top:250px;
+}
+#donation-nav:hover
+{
+    border-bottom:8px solid #371f41;;   
+}

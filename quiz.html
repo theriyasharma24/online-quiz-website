@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="shortcut icon" href="img/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">  <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700%7CRoboto+Slab:400,100' rel='stylesheet' type='text/css' />
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body class="quiz-body" >
+    
+    
+    <nav>
+        <a id="logo">Quiz<span style="color: #184f61;">zers</span></a>  
+        <a class="nav-item" id="quiz-nav-item" href="index.html">Home</a>
+        <a class="nav-item" id="quiz-nav-item" onclick="window.scrollTo(0,0);">Quiz</a>
+        <a class="nav-item" id="quiz-nav-item" href="about.html">About</a>
+        <a class="nav-item" id="quiz-nav-item" onclick="contact();">Contact</a>
+        <a class="nav-item" id="quiz-nav-item"href="feedback.html">Feedback</a>
+        <a class="nav-item" id="donation-nav" href="donate.html">Donate</a><span class="vl"></span>
+        <a class="nav-item" id="nav-item-login" href="login.html">Log In</a>
+        <button class="nav-item" id="nav-quiz-button" onclick="location.href='quiz.html'">Take the Quiz</button>
+    </nav>
+
+    <div class="quiz-header">
+        <h1 class="quiz-heading1">
+        “An investment in knowledge pays the best interest.”
+        </h1>
+        <h4 class="home-heading2">So What Are You Waiting For? Enhance Your Knowledge With Our Amazing Quizzes. Check Them Out Now!</h4>
+        
+    </div>   
+    <button class="home-button-quiz" id="quiz-button-quiz" onclick="quiz();">Choose the Quiz</button>
+    <img style="background-color:transparent; height:500px;margin-top:40px;" src="https://static.neris-assets.com/images/teams/problem-solving.svg">
+    
+    <div class="quiz-mid-portion" >
+        
+        <h1 class="quiz-mid-heading1">See what we have in store for you!</h1>
+        <div class="quiz-mid-topic-box1" onclick="location.href='science.html'" >
+            <img class="quiz-mid-topic-pic" src="https://static.neris-assets.com/images/personality-types/avatars/istj-logistician-c-s3-other.svg">
+            <p class="quiz-mid-topic-heading1"> Science</p>
+            <p class="quiz-mid-topic-heading2">“The good thing about science is that it's true whether or not you believe in it.”</p>
+
+        </div>
+        <div class="quiz-mid-topic-box2" onclick="location.href='entertainment.html'" >
+            <img class="quiz-mid-topic-pic" src="https://static.neris-assets.com/images/personality-types/avatars/esfp-entertainer-s3-female.svg">
+            <p class="quiz-mid-topic-heading1"> Entertainment</p>
+            <p class="quiz-mid-topic-heading2">“We aren't in an information age, we are in an entertainment age.”</p>
+
+        </div>
+        
+        <div class="quiz-mid-topic-box3"onclick="location.href='sports.html'" >
+            <img class="quiz-mid-topic-pic" src="https://static.neris-assets.com/images/personality-types/avatars/esfp-entertainer-c-s3-v1-female.svg">
+            <p class="quiz-mid-topic-heading1"> Sports</p>
+            <p class="quiz-mid-topic-heading2">“One man practicing sportsmanship is far better than 50 preaching it.”</p>
+
+        </div>
+        <div class="quiz-mid-topic-box4" onclick="location.href='history.html'" >
+            <img class="quiz-mid-topic-pic" src="https://static.neris-assets.com/images/personality-types/avatars/enfj-protagonist-p-s3-v1-male.svg">
+            <p class="quiz-mid-topic-heading1"> History</p>
+            <p class="quiz-mid-topic-heading2">“History is the interpretation of the significance that the past has for us.”</p>
+
+        </div>
+        <p class="quiz-mid-last-line">Participate in these amazing quizzes and get a chance to win exciting prizes!</p>
+    </div>
+   
+    <footer class="quiz-footer">
+        
+        <p class="footer-updates">Get quiz updates just on a click! </p>
+        <form name="form1" action="#">
+            <input class="footer-updates-input" name="email" placeholder="Your Email Address">
+            <button class="footer-updates-button" onclick="ValidateEmail(document.form1.email);">Subscribe</button>
+        </form>
+        <div class="footer-social-media">
+            <p id="footer-social-media-heading">Stay Connected With Us</p>
+            <a href="https://www.instagram.com/accounts/login/" target="_blank"><img class="footer-icons" id="quiz-footer-icons" src="https://img.icons8.com/fluency/2x/instagram-new.png"></a>
+            <a href="https://www.facebook.com/" target="_blank"><img class="footer-icons" id="quiz-footer-icons"src="https://img.icons8.com/fluency/2x/facebook.png"></a>
+            <a href="https://twitter.com/?lang=en-in" target="_blank"><img class="footer-icons" id="quiz-footer-icons" src="https://img.icons8.com/fluency/452/twitter.png"></a>
+            <a href="https://in.linkedin.com/" target="_blank"><img class="footer-icons" id="quiz-footer-icons"src="https://img.icons8.com/color/2x/linkedin.png"></a>
+        </div>
+        <div class="footer-links-line">
+            <a class="footer-links" href="index.html">Home</a>
+            <a class="footer-links" href="quiz.html">Quiz</a>
+            <a class="footer-links" >Contact</a>
+            <a class="footer-links" href="donate.html">Donate</a>
+            <a class="footer-links" href="about.html">About</a>            
+            <a class="footer-links" href="feedback.html">Feedback</a>
+            <a class="footer-links" href="login.html">Log In</a>
+            <a class="footer-links">Privacy Policy</a>
+            
+        </div>
+        
+        
+        <p class="footer-last-line">© All Rights Reserved Quizzers Ltd. 2021-2022</p>
+        
+    </footer>
+    <script>
+        function quiz() {
+            window.scrollTo(0,1000);
+        }
+        function contact() {
+            window.scrollTo(0,2800);
+        }
+        function topp() {
+        window.scrollTo(0,0);
+
+        }
+        function ValidateEmail(inputText)
+        {
+            var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+            if(inputText.value.match(mailformat))
+            {
+            alert("A verification link has been sent to your given email address : "+ inputText.value);
+            document.form1.email.focus();
+            return true;
+            }
+            else
+            {
+            alert("You have entered an invalid email address. Please enter a valid email address.");
+            document.form1.email.focus();
+            return false;
+            }
+            
+        }
+    </script>
+</body>
+</html>

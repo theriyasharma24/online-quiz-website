@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports</title>
+    <link rel="shortcut icon" href="img/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">  <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700%7CRoboto+Slab:400,100' rel='stylesheet' type='text/css' />
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body class="topics-body" >
+    
+    
+    <nav>
+        <a id="logo">Quiz<span style="color: #184f61;">zers</span></a>  
+        <a class="nav-item" id="quiz-nav-item" href="index.html">Home</a>
+        <a class="nav-item" id="quiz-nav-item" href="quiz.html">Quiz</a>
+        <a class="nav-item" id="quiz-nav-item"href="about.html">About</a>
+        <a class="nav-item" id="quiz-nav-item" onclick="contact();">Contact</a>
+        <a class="nav-item" id="quiz-nav-item" href="feedback.html">Feedback</a>
+        <a class="nav-item" id="donation-nav" href="donate.html">Donate</a><span class="vl"></span>
+        <a class="nav-item" id="nav-item-login" href="login.html">Log In</a>
+        <button class="nav-item" id="nav-quiz-button" onclick="location.href='quiz.html'">Take the Quiz</button>
+    </nav>
+    
+    <div style="background-image:url('https://cdn.wallpapersafari.com/12/32/jip8Go.jpg'); "class="topics-header">
+        <h1 class="topics-heading1">
+        Sports
+        </h1>
+        <h4 class="topics-heading2">“One man practicing sportsmanship is far better than 50 preaching it.”</h4>
+        <button class="topics-header-quiz-button" onclick="quiz();">Start The Quiz</button>
+    </div>
+    <div class=topics-mid-portion>
+        <img class="topics-mid-image" src="https://static.neris-assets.com/images/personality-types/avatars/infj-advocate-s3-male.svg">
+        <p class="topics-mid-heading" >Let's test your knowledge in Sports. Answer these five questions and win exciting rewards.<br> <span id="topics-mid-heading-all-the-best">All the Best!</span></p>
+
+    </div>
+    <h1 id="topics-score"></h1>
+    <div class="topics-box">
+        <img class="topics-image" src="https://static.neris-assets.com/images/personality-types/avatars/intj-architect-c-s3-v1-female.svg">
+
+        <div class="topics-question-box">
+            <p class="topics-question">Q1. Which city hosted the 1st Asian Games in the year 1951 ? </p>
+            <button class="topics-answer-button" id="1a" value="a" onclick="check(1,value)">A. New Delhi, India</button>
+            <button class="topics-answer-button" id="1b" value="b" onclick="check(1,value)">B. Jakarta, Indonesia</button><br>
+            <button class="topics-answer-button" id="1c" value="c" onclick="check(1,value)">C. Tokyo, Japan</button>
+            <button class="topics-answer-button" id="1d" value="d" onclick="check(1,value)">D. Manila, Philippines </button>
+        </div>
+    </div>
+
+    <div class="topics-box">
+        <img class="topics-image" id="topics-image-right" src="https://static.neris-assets.com/images/personality-types/avatars/esfj-consul-s3-other.svg">
+        <div class="topics-question-box" id="topics-question-box-right">
+            <p class="topics-question">Q2. Which Sport is added for the first time to the Tokyo 2021 Olympics Games ? </p>
+            <button class="topics-answer-button" id="2a" value="a" onclick="check(2,value)">A. Fencing</button>
+            <button class="topics-answer-button" id="2b" value="b" onclick="check(2,value)">B. Powerlifting</button><br>
+            <button class="topics-answer-button" id="2c" value="c" onclick="check(2,value)">C. Curling</button>
+            <button class="topics-answer-button" id="2d" value="d" onclick="check(2,value)">D. Table Tennis Mixed Doubles </button>
+        </div>
+    </div>
+
+    <div class="topics-box">
+        <img class="topics-image" src="https://static.neris-assets.com/images/personality-types/avatars/intj-architect-s3-other.svg">
+
+        <div class="topics-question-box">
+            <p class="topics-question">Q3. Which nation finished with the most number of medals in the Tokyo Olympics? </p>
+            <button class="topics-answer-button" id="3a" value="a" onclick="check(3,value)">A. USA</button>
+            <button class="topics-answer-button" id="3b" value="b" onclick="check(3,value)">B. China</button><br>
+            <button class="topics-answer-button" id="3c" value="c" onclick="check(3,value)">C. Japan</button>
+            <button class="topics-answer-button" id="3d" value="d" onclick="check(3,value)">D. Australia </button>
+
+        </div>
+    </div>
+
+    <div class="topics-box">
+        <img class="topics-image" id="topics-image-right" src="https://static.neris-assets.com/images/personality-types/avatars/esfj-consul-c-s3-v1-male.svg">
+        <div class="topics-question-box" id="topics-question-box-right">
+            <p class="topics-question">Q4. How many medals did India won in Tokyo Olympics 2020? </p>
+            <button class="topics-answer-button" id="4a" value="a" onclick="check(4,value)">A. 5</button>
+            <button class="topics-answer-button" id="4b" value="b" onclick="check(4,value)">B. 6</button><br>
+            <button class="topics-answer-button" id="4c" value="c" onclick="check(4,value)">C. 7</button>
+            <button class="topics-answer-button" id="4d" value="d" onclick="check(4,value)">D. 8</button>
+
+        </div>
+    </div>
+
+    <div class="topics-box">
+        <img class="topics-image" src="https://static.neris-assets.com/images/personality-types/avatars/intp-logician-c-s3-v1-male.svg">
+
+        <div class="topics-question-box">
+            <p class="topics-question">Q5. Who was India's first football Captain? </p>
+            <button class="topics-answer-button" id="5a" value="a" onclick="check(5,value)">A. Talimeren Ao</button>
+            <button class="topics-answer-button" id="5b" value="b" onclick="check(5,value)">B. Shailen Manna</button><br>
+            <button class="topics-answer-button" id="5c" value="c" onclick="check(5,value)">C. SC Goswami</button>
+            <button class="topics-answer-button" id="5d" value="d" onclick="check(5,value)">D. P K Banerjee </button>
+
+        </div>
+    </div>
+
+    <button class="topics-submit-button" onclick="window.scrollTo(0,694);">Score</button>
+
+</body>
+<div onclick="topp();" class="quiz-arrow-full" id="topics-arrow-full">
+    <img class="topics-arrow-up" id="quiz-topics-arrow-up" src="https://img.icons8.com/ios/2x/send-letter.png">
+    <p style="position:relative;bottom:170px;left:1125px;font-family:cursive;">Back To Top</p>
+</div>
+<footer class="topics-footer">
+        
+    <p class="footer-updates">Get quiz updates just on a click! </p>
+    <form name="form1" action="#">
+        <input class="footer-updates-input" name="email" placeholder="Your Email Address">
+        <button class="footer-updates-button" onclick="ValidateEmail(document.form1.email);">Subscribe</button>
+    </form>
+    <div class="footer-social-media">
+        <p id="footer-social-media-heading">Stay Connected With Us</p>
+        <a href="https://www.instagram.com/accounts/login/" target="_blank"><img class="footer-icons" src="https://img.icons8.com/fluency/2x/instagram-new.png"></a>
+        <a href="https://www.facebook.com/" target="_blank"><img class="footer-icons"src="https://img.icons8.com/fluency/2x/facebook.png"></a>
+        <a href="https://twitter.com/?lang=en-in" target="_blank"><img class="footer-icons" src="https://img.icons8.com/fluency/452/twitter.png"></a>
+        <a href="https://in.linkedin.com/" target="_blank"><img class="footer-icons"src="https://img.icons8.com/color/2x/linkedin.png"></a>
+    </div>
+    <div class="footer-links-line">
+        <a class="footer-links" href="index.html">Home</a>
+        <a class="footer-links" href="quiz.html">Quiz</a>
+        <a class="footer-links" >Contact</a>
+        <a class="footer-links" href="donate.html">Donate</a>
+        <a class="footer-links" href="about.html">About</a>            
+        <a class="footer-links" href="feedback.html">Feedback</a>
+        <a class="footer-links" href="login.html">Log In</a>
+        <a class="footer-links">Privacy Policy</a>
+        
+    </div>
+    
+    
+    <p class="footer-last-line">© All Rights Reserved Quizzers Ltd. 2021-2022</p>
+    
+</footer>
+<script>
+    function contact() {
+        window.scrollTo(0,2800);
+    }
+    function topp() {
+        window.scrollTo(0,10);
+
+    }
+    function quiz() {
+        window.scrollTo(0,480);
+        
+    }
+    function ValidateEmail(inputText)
+    {
+        var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+        if(inputText.value.match(mailformat))
+        {
+        alert("A verification link has been sent to your given email address : "+ inputText.value);
+        document.form1.email.focus();
+        return true;
+        }
+        else
+        {
+        alert("You have entered an invalid email address. Please enter a valid email address.");
+        document.form1.email.focus();
+        return false;
+        }
+        
+    }
+        score=0;
+    time1=0;
+    time2=0;
+    time3=0;
+    time4=0;
+    time5=0;
+    function scorestyle()
+    {
+        
+        document.getElementById("topics-score").style.marginBottom="100px";
+        document.getElementById("topics-score").style.marginTop="-10vw";
+        document.getElementById("topics-score").style.textAlign="center";
+        document.getElementById("topics-score").style.fontSize="60px";
+        document.getElementById("topics-score").style.backgroundColor="#184f61";
+        document.getElementById("topics-score").style.color="antiquewhite";
+        document.getElementById("topics-score").style.marginLeft="300px";
+        document.getElementById("topics-score").style.marginRight="300px";
+        document.getElementById("topics-score").style.borderRadius="10px";
+        document.getElementById("topics-score").style.paddingTop="50px";
+        document.getElementById("topics-score").style.paddingBottom="50px";
+
+    }
+    function changecolor(value,ans,question)
+    {
+        if (value==ans)
+            {
+                score=score+1;
+                document.getElementById(question+ans).style.backgroundColor = 'darkgreen'; 
+                document.getElementById(question+ans).style.color = 'white';
+
+            }
+            else
+            {
+                document.getElementById(question+ans).style.backgroundColor = 'darkgreen';
+                document.getElementById(question+value).style.backgroundColor = 'darkred'; 
+                document.getElementById(question+value).style.color = 'white';
+                document.getElementById(question+ans).style.color = 'white';
+            }
+            document.getElementById("topics-score").innerHTML="Your Score : "+score+"/5";
+            scorestyle();
+    }
+    function check(question, value)
+    {
+        if(question==1 && time1==0)
+        {
+            var ans='a';
+            time1=1;
+            changecolor(value,ans,question);
+            
+        }
+        if(question==2 && time2==0)
+        {
+            var ans='d';
+            changecolor(value,ans,question);
+            time2=1;
+        }
+        if(question==3 && time3==0)
+        {
+            var ans='a';
+            changecolor(value,ans,question);
+            time3=1;
+        }
+        
+        if(question==4 && time4==0)
+        {
+            var ans='c';
+            changecolor(value,ans,question);
+            time4=1;
+        }
+        else if(question==5 && time5==0)
+        {
+            var ans='a';
+            changecolor(value,ans,question);
+            window.scrollTo(0,700);
+            time5=1;
+        }
+            
+        
+    }
+            
+      
+</script>
+</html>
